@@ -89,7 +89,7 @@ while running:
     pygame.draw.rect(screen, BLUE, (player_pos[0], player_pos[1], player_size, player_size))
     pygame.draw.rect(screen, RED, (enemy_pos[0], enemy_pos[1], enemy_size, enemy_size))
 
-    # Display score
+    
     score_text = font.render("Score: " + str(score), True, WHITE)
     screen.blit(score_text, (10, 10))
 
@@ -99,5 +99,5 @@ while running:
    
     clock.tick(30)
 
-# Quit Pygame
+
 pygame.quit()
